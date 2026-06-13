@@ -32,7 +32,13 @@ MAIN FEATURES OF THE APP :
    ```bash
     flutter pub get
     ```
+   
 3. File Structure
    'Lib/Pages: Yang berisi semua page dari app'
    'Lib/themes: berisi semua design dari text dan juga base color dari app kami yang akan digunakan agar        seragam dalam satu tema.'
    'Lib/widgets : berisi semua widget yang ada di dalam app yang kami gunakan'
+
+
+   Figma : https://www.figma.com/design/HrWgUanyxqR0T3olAXUz2W/Software-Engeneering?node-id=818-1327&t=Paz1sgyn0DvxcwHJ-0
+
+   
