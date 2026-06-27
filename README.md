@@ -18,7 +18,7 @@ MAIN FEATURES OF THE APP :
 ##Tech Stack
 * Framework : Flutter
 * Front End : Dart
-* Backend : node js (typescript)
+* Backend : supabase 
 * database : supabase (posgresql)
 
 ##Installation
