@@ -115,13 +115,22 @@ class ExploreCard extends StatelessWidget {
                       Text(
                         event.title,
                         style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, height: 1.2),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
                       ),
                       const SizedBox(height: 8),
                       Row(
                         children: [
                           Icon(Icons.location_on_outlined, size: 14, color: Colors.grey),
                           SizedBox(width: 4),
-                          Text(event.location, style: TextStyle(fontSize: 12, color: Colors.grey)),
+                          Expanded(
+                            child: Text(
+                              event.location,
+                              style: TextStyle(fontSize: 12, color: Colors.grey),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
                         ],
                       ),
                       SizedBox(height: 4),
@@ -129,7 +138,14 @@ class ExploreCard extends StatelessWidget {
                         children: [
                           Icon(Icons.access_time_outlined, size: 14, color: Colors.grey),
                           SizedBox(width: 4),
-                          Text("${event.startTime.substring(0, 5)}" " - " "${event.endTime.substring(0, 5)}", style: TextStyle(fontSize: 12, color: Colors.grey)),
+                          Expanded(
+                            child: Text(
+                              "${event.startTime.substring(0, 5)} - ${event.endTime.substring(0, 5)}",
+                              style: TextStyle(fontSize: 12, color: Colors.grey),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
                         ],
                       ),
                     ],
@@ -139,13 +155,13 @@ class ExploreCard extends StatelessWidget {
                     top: 0,
                     right: 0,
                     child: Container(
-                      width: 38,
-                      height: 38,
+                      width: 25,
+                      height: 25,
                       decoration: const BoxDecoration(
                         color: Color(0xFFFFD700),
                         shape: BoxShape.circle,
                       ),
-                      child: Icon(_getCategoryIcon(), color: Colors.black, size: 20),
+                      child: Icon(_getCategoryIcon(), color: Colors.black, size: 14),
                     ),
                   ),
                 ],

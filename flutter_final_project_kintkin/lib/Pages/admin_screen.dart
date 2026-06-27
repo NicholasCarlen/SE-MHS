@@ -143,11 +143,11 @@ class _AdminScreenState extends State<AdminScreen> {
                         child: GestureDetector(
                           onTap: () => Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => UserDbScreen()),  // ← closing ) was missing
+                            MaterialPageRoute(builder: (context) => UserDbScreen()),  
                           ),
                           child: StatCard(
                             title: 'Users',
-                            value: '4',
+                            value: totalUsers.toString(),
                             icon: Icons.person_2_rounded,
                             isSmall: true,
                           ),
