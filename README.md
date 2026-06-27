@@ -41,4 +41,7 @@ MAIN FEATURES OF THE APP :
 
    Figma : https://www.figma.com/design/HrWgUanyxqR0T3olAXUz2W/Software-Engeneering?node-id=818-1327&t=Paz1sgyn0DvxcwHJ-0
 
-   
+   <img width="786" height="449" alt="image" src="https://github.com/user-attachments/assets/64780f9f-d735-429a-9400-d20f4db25f4c" />
+   <img width="800" height="448" alt="image" src="https://github.com/user-attachments/assets/14245625-8390-4bde-9539-d48fcb7cb745" />
+
+
