@@ -37,6 +37,7 @@ MAIN FEATURES OF THE APP :
    'Lib/Pages: Yang berisi semua page dari app'
    'Lib/themes: berisi semua design dari text dan juga base color dari app kami yang akan digunakan agar        seragam dalam satu tema.'
    'Lib/widgets : berisi semua widget yang ada di dalam app yang kami gunakan'
+   **INSTALLATION GUIDE : https://docs.google.com/document/d/1e5QDaRYzfqh8hQAeTLLV-3vJKk6IGhlv-Lt64AQMM5Q/edit?usp**
 
 
    Figma : https://www.figma.com/design/HrWgUanyxqR0T3olAXUz2W/Software-Engeneering?node-id=818-1327&t=Paz1sgyn0DvxcwHJ-0
